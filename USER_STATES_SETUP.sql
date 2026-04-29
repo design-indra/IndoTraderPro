@@ -45,7 +45,7 @@ INSERT INTO users (name, email, password_hash, role, subscription_status)
 VALUES (
   'Admin',
   'admin@indotrader.app',
-  'b94d27b9934d3e08a52e52d7da7dabfac484efe04294e576c4c31b02e3a12e30',
+  '$2b$12$3SLpSY0mHcdH4T6mX3YaiesInBXyCfsO/YQncTFicWYTsQ3QqmIgi',
   'admin',
   'active'
 ) ON CONFLICT (email) DO NOTHING;
