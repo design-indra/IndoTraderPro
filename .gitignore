@@ -1,0 +1,26 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Next.js
+.next/
+out/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+.pnpm-debug.log*
+
+# ML Model saves
+/data/*.json
+/ml-engine/*.bin
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
